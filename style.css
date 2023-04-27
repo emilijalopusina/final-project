@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.wrapper {
+  height: 15vh;
+}
+
+.top-bar {
+  width: 10%;
+  height: 20px;
+  margin: 2px auto;
+}
+
+.nav-bar {
+  width: 60%;
+  float: left;
+  text-align: center;
+  background-color: rgb(131, 124, 35);
+}
+
+.nav-item {
+  display: inline-block;
+  list-style: none;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.623);
+  margin: 10px 10px;
+  padding-top: 3px;
+  cursor: pointer;
+}
+
+.active,
+.nav-item:hover {
+  border-bottom: 2px solid;
+}
+
+.nav-link {
+  color: rgb(54, 51, 7);
+  text-decoration: rgb(116, 91, 11);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.search-box {
+  width: 20%;
+  float: right;
+}
+
+.input-search {
+  margin: 11px auto;
+  display: inline-flex;
+}
+
+.input-search input {
+  float: right;
+  padding: 5px;
+  box-shadow: black;
+  outline: rgb(20, 19, 19);
+  border: 0;
+  background: rgba(116, 114, 7, 0.473);
+}
+
+#home {
+  display: block;
+}
+
+#gallery {
+  display: none;
+}
+
+#about {
+  display: none;
+}
+
+#contact {
+  display: none;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 56px;
+  color: #1e1f049d;
+  position: absolute;
+  left: 80px;
+  top: 70px;
+}
+
+p {
+  position: absolute;
+  top: 60px;
+  left: 700px;
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  font-style: italic;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.623);
+  position: absolute;
+  left: 30px;
+  top: 150px;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.hero-image {
+  background-image: url("./banner.jpg");
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.text-decor {
+  font-style: italic;
+  font-size: 70px;
+  color: rgba(155, 153, 22, 0.918);
+}
+
+.img-container {
+  position: relative;
+  width: 300px;
+  display: grid;
+}
+
+.row {
+  display: block;
+  width: 550px;
+  padding: 0 4px;
+}
+
+.gallery {
+  margin-top: "rem";
+}
+
+.gallery > div {
+  columns: 3;
+  gap: 1.25rem;
+  padding-top: 1.25rem;
+}
+
+.gallery img {
+  display: block;
+  width: 60%;
+  margin-bottom: 1.25rem;
+  border-radius: 20px;
+}
+
+.column img {
+  width: 60%;
+  margin-left: 50px;
+}
+
+body {
+  background-color: #a4a569cb;
+  justify-content: center;
+}
